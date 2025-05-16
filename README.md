@@ -26,7 +26,7 @@ Developed for **ELE201: Secure Coding**, this individual project focuses on buil
 - Secure login & session handling  
 - Using PHPMailer for email integration  
 - Implementing 2FA in PHP  
-- Working with NoSQL in e-commerce apps
+- Working with mySQL in e-commerce apps
 
 ---
 
