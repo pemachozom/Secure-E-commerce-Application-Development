@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Seller View</title>
+        <link rel="stylesheet" href="./css/sellerhome.css">
+    </head>
+    <body>
+         <div class="banner">
+            <div class="navbar">
+                <!-- <img class="logo" src="logo.png"> -->
+                <p class="logo" style="color: white; font-size: 25px;">E-Deals</p>
+                <ul>
+                    <li><a href="sellerhome.html">Home</a></li>
+                    <li><a href="sellerview.html">View Product</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="logout.php">Logout</a></li>
+                </ul>
+            </div><br><br><br>
+
+            <div id="productDetails">
+             </div>
+             
+        </div>
+    </body>
+
+    <!-- <script src="js/viewproduct.js"></script> -->
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            // Update the product details div with the fetched data
+            document.getElementById("productDetails").innerHTML = this.responseText;
+        }
+    };
+
+    // Send a GET request to view_products.php
+    xhr.open("GET", "seller_view.php", true);
+    xhr.send();
+    </script>
+
+</html>

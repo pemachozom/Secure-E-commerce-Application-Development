@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <h1>Log In</h1>
+    <form action="login.php" method="post">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required><br><br>
+            
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+           
+        <div class="role" id="role">
+            
+            <input type="radio" name="role" value="Buyer" checked><p>Buyer</p>
+            <input type="radio" name="role" value="Seller"><p>Seller</p>
+
+        </div>
+
+        <input type="submit" value="Log In"> <br>
+        <a href="index.html">Create account</a>
+        
+    </form>
+</body>
+</html>
