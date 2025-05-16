@@ -1,0 +1,15 @@
+2023-11-23T12:48:56.024Z error: Caught exception: This is an error message,
+2023-11-23T13:46:40.462Z error: Caught exception:,
+2023-11-23T13:47:02.455Z error: Caught exception:,
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Session 123456 - Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Session 789012 - Error: Error within the session.""}"
+"{""level"":""error""","message:""Session 123456 - Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Session 789012 - Error: Error within the session.""}"
+"{""level"":""error""","message:""Session 123456 - Error: This is a dynamic error.""}"
+"{""level"":""error""","message:""Session 789012 - Error: Error within the session.""}"

@@ -1,0 +1,73 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Change the background color to a light blue shade */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 350px; /* Increase the width */
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content horizontally */
+}
+
+label {
+    font-weight: bold;
+}
+
+/* Apply the same layout to text, email, password, and tel inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px; /* Increase padding to make the input box larger */
+    margin-bottom: 8px; /* Decrease margin to reduce space between text and input box */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.role {
+    display: flex;
+    align-items: center;
+  }
+  
+  .role input {
+    margin-right: 5px; /* Adjust the margin as needed */
+  }
